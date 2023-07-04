@@ -212,6 +212,14 @@ input[type="submit"]{
     font-weight: 800;
 }
 
+input[type="submit"]:hover{
+
+    background: #651d32;
+    color: #fff;
+    cursor: pointer;
+
+}
+
 input:focus{
 
     outline: #323e48 solid 2px;
