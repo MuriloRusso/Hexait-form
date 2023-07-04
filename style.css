@@ -1,0 +1,290 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    font-family: "HelveticaNeueLT-Medium", Arial, Helvetica, sans-serif;
+
+}
+
+body{
+
+    background-color: #EEEEEE;
+    background-color: #f1f1f1;
+    background-image: url(https://img03.en25.com/EloquaImages/clients/FortinetInc2/%7Bf17f3c3b-c9a3-4b58-9d81-641450169ebe%7D_ftnt_lp_banner_1920x440.jpg);
+    background-position: center top;
+    background-position-x: center;
+    background-position-y: top;
+    background-repeat: no-repeat;
+    background-size: inherit;
+
+}
+
+header{
+
+    margin: 45px 0;
+    width: -webkit-fill-available;
+
+    padding: 0 2%;
+
+}
+
+header img{
+
+    width: 100%; 
+    height: auto; 
+    max-width:200px
+
+}
+
+
+section{
+
+    width: 100%;
+    padding: 0 2%;
+    max-width: 46%;
+    padding-bottom: 50px
+
+}
+
+h6{
+
+    color: #da291c !important;
+    text-transform: uppercase!important;
+    font-family: "HelveticaNeueLT-Bold", Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+
+}
+
+h1{
+
+    font-family: "HelveticaNeueLT-Bold", Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 2.5rem;
+    line-height: 1.2;
+    max-width: 84%;
+
+}
+
+h2 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    line-height: 1.2;
+    font-family: "HelveticaNeueLT-Bold", Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #323e48;
+}
+
+.container{
+
+    max-width: 1110px;
+    margin: auto;
+
+}
+
+
+.row{
+
+    display: flex;
+
+}
+
+.baseline{
+
+    align-items: baseline;
+}
+
+.space-betwen{
+
+    justify-content: space-between;
+}
+
+.flex-wrap{
+
+    flex-wrap: wrap;
+
+}
+
+.text-center{
+
+    text-align: center;
+
+}
+
+.details{
+
+    margin: 150px 0 0 0;
+
+}
+
+.details p{
+
+
+    margin: 50px 40px 0 0;
+    color: #3d3d3d;
+    font-family: "HelveticaNeueLT-Medium", Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    line-height: 1.5;   
+
+}
+
+
+form{
+
+    background-color: white;
+    padding: 16px 25px 0 !important;
+
+}
+
+form p{
+
+    width: 100%;
+    color: #323e48;
+    margin-bottom: 1rem;
+
+}
+
+form p:last-child{
+
+    font-size: 14px !important;
+
+}
+
+form p:last-child a{
+
+    color: #323e48;
+
+}
+
+
+.form-group{
+
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding: 10px 0;
+    justify-content: space-between;
+
+}
+
+label{
+
+    /* margin: 5px0; */
+    font-weight: 600;
+    color: #323e48;
+    line-height: 1.4;
+    padding-top: 3px;
+    margin-bottom: 4px;
+
+}
+
+input, select{
+
+    background-color: #fff;
+    padding: 10px 18px;
+    margin: 0px;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 140%;
+    border: 1px solid #ccc;
+    margin-right: 10px;
+    width: -webkit-fill-available;
+
+}
+
+input[type="checkbox"]{
+
+    width: auto !important;
+
+}
+
+input[type="submit"]{
+
+    background: #da291c;
+    width: auto !important;
+    padding: 17px 30px;
+    color: white;
+    text-transform: uppercase;
+    padding: 17px 30px;
+    font-size: 18px;
+    font-weight: 800;
+}
+
+input:focus{
+
+    outline: #323e48 solid 2px;
+
+}
+.w-100{
+
+    width: 100% !important;
+
+}
+
+.accept label{
+
+    font-weight: 400 !important;
+
+}
+
+footer{
+
+    width: 100%;
+    background-color: white;
+    padding: 30px 0;
+    color: #323e48 !important;
+}
+
+/* footer .container{
+
+    padding: 0 2%;
+
+} */
+
+#copyright, #terms p, #social-share{
+
+    padding: 0 2%;
+
+}
+
+
+footer a{
+
+    color: #323e48 !important;
+
+}
+
+#copyright, #terms{
+
+    font-size: 0.8125rem;
+
+}
+
+
+#terms{
+
+    padding: 25px 0;
+
+}
+
+#terms p{
+
+    margin-bottom: 16px !important;
+
+}
+
+
+
+
+@media (max-width: 900px){
+
+    section, footer{
+
+        max-width: 96%;
+        padding: 50px 2%;
+
+    }
+
+}
