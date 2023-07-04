@@ -271,7 +271,7 @@
                     <div class="form-group">
 
                         <label for="pais">Pais *</label>
-                        <select name="pais" id="pais">
+                        <select name="pais" id="pais" required>
                             <option value="">--Selecione uma opção--</option>
                             <option value="Afghanistan">Afeganistão</option>
                             <option value="South Africa">África do Sul</option>
@@ -317,7 +317,7 @@
                     <div class="form-group">
 
                         <label for="cargo">Cargo *</label>
-                        <select name="cargo" id="cargo">
+                        <select name="cargo" id="cargo" required>
                             <option value="">--Selecione uma opção--</option>
                             <option value="C-Level">C-Level</option>
                             <option value="Director">Diretor</option>
