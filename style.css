@@ -191,6 +191,7 @@ input, select{
     border: 1px solid #ccc;
     margin-right: 10px;
     width: -webkit-fill-available;
+    color: #323e48;
 
 }
 
@@ -220,7 +221,7 @@ input[type="submit"]:hover{
 
 }
 
-input:focus{
+input:focus, select:focus{
 
     outline: #323e48 solid 2px;
 
