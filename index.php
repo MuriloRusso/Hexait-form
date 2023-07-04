@@ -53,11 +53,11 @@
 
 		
 		
-<!-- 		
+		
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.15/jquery.mask.min.js"></script>
 
-		 -->
+		
 
          <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
 
@@ -438,7 +438,11 @@
 
         </footer>
 
-		
+		<script>
+
+            $( '#telefone').mask('(99) 99999-9999');
+
+        </script>
 		
 	</body>
 	
