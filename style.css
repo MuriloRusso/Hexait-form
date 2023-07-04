@@ -79,7 +79,7 @@ h2 {
 
 .container{
 
-    max-width: 1110px;
+    max-width: 1160px;
     margin: auto;
 
 }
@@ -143,7 +143,7 @@ form p{
     width: 100%;
     color: #323e48;
     margin-bottom: 1rem;
-
+    font-size: 16px;
 }
 
 form p:last-child{
@@ -206,11 +206,10 @@ input[type="checkbox"]{
 input[type="submit"]{
 
     background: #da291c;
-    width: auto !important;
+    width: fit-content !important;
     padding: 17px 30px;
     color: white;
     text-transform: uppercase;
-    padding: 17px 30px;
     font-size: 18px;
     font-weight: 800;
 }
