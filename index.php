@@ -213,15 +213,17 @@
                                 
                                 // header("Location: index.html?alert=sucess");
 
-                                print 'Enviado com sucesso';
+                                print '<div class="alert alert-success text-center w-100">'.$nome.', Seu Registro foi Enviado com Sucesso, Obrigado!</div>';
                                 
+                                $_POST['nome'] = '';
+        
                             }
 
                             else{
                                 
                                 // header("Location: index.html?alert=error".$mail->ErrorInfo);
 
-                                print $mail->ErrorInfo;
+                                print '<div class="alert alert-error text-center w-100">Erro: '.$mail->ErrorInfo.'</div>';
                                 
                             }
 

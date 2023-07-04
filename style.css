@@ -227,6 +227,29 @@ input:focus, select:focus{
     outline: #323e48 solid 2px;
 
 }
+
+.alert{
+
+    padding: 20px 0 !important;
+    color: white !important;
+    font-weight: 600;
+
+}
+
+.alert-success{
+
+    background-color: green;
+    margin-bottom: 20px;
+
+}
+
+.alert-error{
+
+    background-color: red;
+
+}
+
+
 .w-100{
 
     width: 100% !important;
@@ -247,11 +270,7 @@ footer{
     color: #323e48 !important;
 }
 
-/* footer .container{
 
-    padding: 0 2%;
-
-} */
 
 #copyright, #terms p, #social-share{
 
