@@ -49,8 +49,7 @@
 		
 <!--		favicon-->
 		
-		<link rel="icon" type="image/x-icon" href="img/favicon.ico">
-
+<link rel="icon" href="https://www.hexait.com.br/wp-content/uploads/2021/05/cropped-Icone-Web-HexaIT-32x32.png" sizes="32x32">
 		
 		
 		
