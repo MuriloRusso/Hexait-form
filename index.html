@@ -98,7 +98,7 @@
 
             <section>
 
-                <form action="" method="post" class="row flex-wrap">
+                <form action="config.php" method="post" class="row flex-wrap">
 
                     <p class=" text-center"><strong>Registre-se para selecionar um horário para a reunião.</strong></p>
 
@@ -133,8 +133,8 @@
 
                     <div class="form-group">
 
-                        <label for="Country">Pais *</label>
-                        <select name="Country">
+                        <label for="pais">Pais *</label>
+                        <select name="pais" id="pais">
                             <option value="">--Selecione uma opção--</option>
                             <option value="Afghanistan">Afeganistão</option>
                             <option value="South Africa">África do Sul</option>
@@ -179,8 +179,8 @@
 
                     <div class="form-group">
 
-                        <label for="JobTitle">Cargo *</label>
-                        <select name="JobTitle">
+                        <label for="cargo">Cargo *</label>
+                        <select name="cargo" id="cargo">
                             <option value="">--Selecione uma opção--</option>
                             <option value="C-Level">C-Level</option>
                             <option value="Director">Diretor</option>
@@ -216,8 +216,8 @@
 
                     <div class="form-group">
 
-                        <label for="organizacao">Telefone *</label>
-                        <input type="text" name="organizacao" id="organizacao" required>
+                        <label for="telefone">Telefone *</label>
+                        <input type="text" name="telefone" id="telefone" required>
 
                     </div>
 
@@ -232,7 +232,7 @@
 
                         <div class="row baseline">
 
-                            <input type="checkbox" name="explicitConsent1" id="fe22328">
+                            <input type="checkbox" name="explicitConsent1" id="fe22328" required>
 
                             <label for="fe22328">Aceito receber comunicações promocionais (que podem incluir telefone, e-mail e mídias sociais) da Fortinet. Entendo que posso desativar proativamente as comunicações com a Fortinet a qualquer momento.</label>
                         
