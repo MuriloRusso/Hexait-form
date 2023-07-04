@@ -203,7 +203,7 @@ input[type="checkbox"]{
 
 }
 
-input[type="submit"]{
+input[type="submit"], .btn{
 
     background: #da291c;
     width: fit-content !important;
@@ -212,9 +212,16 @@ input[type="submit"]{
     text-transform: uppercase;
     font-size: 18px;
     font-weight: 800;
+    text-decoration: none;
 }
 
-input[type="submit"]:hover{
+.btn{
+
+    margin: 10px auto !important;
+
+}
+
+input[type="submit"]:hover, .btn:hover{
 
     background: #651d32;
     color: #fff;

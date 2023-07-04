@@ -213,7 +213,10 @@
                                 
                                 // header("Location: index.html?alert=sucess");
 
-                                print '<div class="alert alert-success text-center w-100">'.$nome.', Seu Registro foi Enviado com Sucesso, Obrigado!</div>';
+                                print '<div class="alert alert-success text-center w-100">'.$nome.', Seu Registro foi Enviado com Sucesso, Obrigado!</div>
+                                
+                                
+                                <a class="btn" href="index.php">Novo Registro</a>';
                                 
                                 $_POST['nome'] = '';
         
@@ -228,6 +231,8 @@
                             }
 
                         }
+
+                        else{
 
 
                     ?>
@@ -380,7 +385,11 @@
 
                     <p>By clicking submit, I agree to the use of my personal information in accordance with Fortinet's <a href="" target="_blank">Privacy Policy</a>.</p>
 
+                    <?php
 
+                        }
+
+                    ?>
 
                 </form>
 
