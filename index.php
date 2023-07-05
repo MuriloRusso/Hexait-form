@@ -382,7 +382,7 @@
 
                     </div>
 
-                    <p>By clicking submit, I agree to the use of my personal information in accordance with Fortinet's <a href="" target="_blank">Privacy Policy</a>.</p>
+                    <!-- <p>By clicking submit, I agree to the use of my personal information in accordance with Fortinet's <a href="" target="_blank">Privacy Policy</a>.</p> -->
 
                     <?php
 

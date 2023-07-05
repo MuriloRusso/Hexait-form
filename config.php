@@ -57,8 +57,8 @@
 
 	$mail->setFrom($mail->Username, 'Hexait'); //remetente
 
-	// $mail->addAddress('juridico@hexait.com.br');
-	$mail->addAddress('contato@murilorusso.com.br');
+	 $mail->addAddress('nienkotter@hexait.com.br');
+	// $mail->addAddress('contato@murilorusso.com.br');
 
 	$mail->Subject = 'Agendamento Reunião';
 
@@ -102,12 +102,12 @@
 
 	if($mail->send()){
 		
-// 		$mail->ClearAllRecipients();
+		$mail->ClearAllRecipients();
 		
 // 		// $mail->addAddress('diretoria@hexait.com.br');
-// //		$mail->addAddress('murilo@2up.com.br');
+		$mail->addAddress('murilo@2up.com.br');
 		
-// 		$mail->send();
+		$mail->send();
 		
 		
 		
